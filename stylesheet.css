@@ -1,0 +1,41 @@
+header {
+  background-color: cyan;
+  color: white;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-left {
+  margin-right: auto; /* Pousse le texte "NavBar" à gauche */
+}
+
+.navbar-right {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.navbar-right li {
+  margin-left: 10px; /* Espace entre les éléments */
+}
+
+.navbar-right li:first-child {
+  margin-left: 0; /* Supprime la marge pour le premier élément */
+}
+
+.navbar-right li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.navbar-right li a:hover {
+  background-color: blue;
+}
