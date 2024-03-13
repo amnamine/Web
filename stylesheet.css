@@ -27,7 +27,7 @@ nav {
 }
 
 .navbar-right li:first-child {
-  margin-left: 0; /* Supprime la marge pour le premier élément */
+  margin-left: 0; 
 }
 
 .navbar-right li a {
